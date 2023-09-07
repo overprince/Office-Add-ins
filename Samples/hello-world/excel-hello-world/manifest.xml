@@ -4,10 +4,10 @@
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>775091b3-e24a-4cf4-a65b-26976fda4f3c</Id>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.0.1</Version>
   <ProviderName>Contoso</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Hello world"/>
+  <DefaultLocale>zh-CN</DefaultLocale>
+  <DisplayName DefaultValue="Hello world ! - from wangzipersonal"/>
   <Description DefaultValue="A simple hello world Office Add-in."/>
   <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/excel-hello-world/assets/icon-64.png"/>
@@ -77,6 +77,7 @@
         <bt:String id="GetStarted.Title" DefaultValue="Get started with the Hello world add-in!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Contoso Add-in"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Hello world"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="from wangzipersonal"/>
         <bt:String id="TaskpaneButton.SupertipTitle" DefaultValue="Hello world"/>
       </bt:ShortStrings>
       <bt:LongStrings>
